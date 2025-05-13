@@ -1,0 +1,45 @@
+body {
+    background: #1B244A;
+    color: #EEEEEE;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#score, #guest-score {
+    background: black;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-family: Cursed Timer ULiL, sans-serif;
+    font-size: 80px;
+    height: 100px;
+    margin: 0 0 25px 0;
+    
+}
+
+.score-btn {
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    color: #9AABD8;
+    padding: 10px 12px;
+    margin: 0 3px;
+}
+
+#reset-btn {
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    color: #9AABD8;
+    margin: 25px 0 0 0;
+    padding: 8px;
+}
